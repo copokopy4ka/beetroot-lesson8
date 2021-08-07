@@ -37,6 +37,7 @@ main {
 }
 
 .input-text {
+    font-family: 'Playfair Display';
     width: 100%;
     padding: 10px 0 20px;
     background-color: #181818;
@@ -51,7 +52,7 @@ main {
 .input-tools {
     position: absolute;
     right: 0;
-    top: 198px;
+    top: 206px;
     z-index: 999;
     background-color: #fabf2d;
     min-width: 800px;
@@ -88,10 +89,10 @@ main {
 }
 
 .page-title {
-    font-size: 78px;
+    font-size: 75px;
     letter-spacing: .05em;
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 900;
     margin: 0 0 25px 0;
 }
 
