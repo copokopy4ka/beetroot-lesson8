@@ -39,9 +39,12 @@ main {
     padding: 140px 120px 120px;
 }
 
-.first-letter {
+.page-text p:first-child:first-letter {
+    font-family: 'PlayfairDisplay';
+    color: #000;
     padding-right: 35px;
     font-size: 80px;
+    font-weight: 400;
     font-weight: 400;
     line-height: 65px;
     float: left;
@@ -71,6 +74,15 @@ main {
     font-style: italic;
     color: #7b7b7b;
     margin-bottom: 40px;
+}
+
+q {
+    quotes: '' '';
+    font-size: 50px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-style: italic;
+    margin-right: 25px;
 }
 
 .btn {
